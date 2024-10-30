@@ -1,0 +1,161 @@
+# Copyright (C) 2021 Modern Plugins
+# This file is distributed under the same license as the Modern CTT plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Modern CTT 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/modern-ctt\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-04T10:29:09+02:00\n"
+"PO-Revision-Date: 2021-05-04 10:45+0200\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: modern-ctt\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+
+#. Plugin Name of the plugin
+#: build/index.js:392
+msgid "Modern CTT"
+msgstr "Modern CTT"
+
+#. Description of the plugin
+msgid ""
+"Adds a beautiful (and customizable) Click to Tweet block to maximize content "
+"sharing on Twitter."
+msgstr ""
+"Ajoute un magnifique bloc Click to Tweet personnalisable pour maximiser vos "
+"partages de contenu sur Twitter."
+
+#. Author of the plugin
+msgid "Modern Plugins"
+msgstr "Modern Plugins"
+
+#. Author URI of the plugin
+msgid "https://modernplugins.com/"
+msgstr "https://modernplugins.com/"
+
+#: modern-click-to-tweet.php:79
+msgid "Click to Tweet"
+msgstr "Click to Tweet"
+
+#: build/index.js:273
+msgid "Quote text"
+msgstr "Citation"
+
+#: build/index.js:274
+msgid "Write text displayed on the site."
+msgstr "Ecrivez le texte affiché sur le site."
+
+#: build/index.js:293
+msgid "Button prompt"
+msgstr "Invite du bouton"
+
+#: build/index.js:294
+msgid "Tweet this"
+msgstr "Tweeter ceci"
+
+#: build/index.js:393
+msgid "Adds a Click To Tweet blockquote."
+msgstr "Ajoute une citation à tweeter."
+
+#: build/index.js:394
+msgid "tweet"
+msgstr "tweet"
+
+#: build/index.js:394
+msgid "click"
+msgstr "clic"
+
+#: build/index.js:394
+msgid "click to tweet"
+msgstr "cliquer pour tweeter"
+
+#: build/index.js:408
+msgid "Code is poetry."
+msgstr "Le code est une poésie."
+
+#: build/index.js:409
+msgid "Tweet this !"
+msgstr "Tweeter ceci !"
+
+#: build/index.js:424
+msgctxt "block style"
+msgid "Default"
+msgstr "Par défaut"
+
+#: build/index.js:428
+msgctxt "block style"
+msgid "Twitter blue"
+msgstr "Bleu Twitter"
+
+#: build/index.js:431
+msgctxt "block style"
+msgid "Minimal"
+msgstr "Minimal"
+
+#: build/index.js:434
+msgctxt "block style"
+msgid "Plain"
+msgstr "Simple"
+
+#: build/index.js:437
+msgctxt "block style"
+msgid "Quote"
+msgstr "Citation"
+
+#: build/index.js:440
+msgctxt "block style"
+msgid "Bordered"
+msgstr "Bordure"
+
+#: build/index.js:481
+msgid "Block settings"
+msgstr "Réglages du bloc"
+
+#: build/index.js:1
+msgid "URL to share"
+msgstr "URL à partager"
+
+#: build/index.js:1
+msgid "If left empty, defaults to post permalink"
+msgstr "Si vide, le permalien de la publication est utilisé"
+
+#: build/index.js:483
+msgid "Twitter handle"
+msgstr "Identifiant Twitter"
+
+#: build/index.js:491
+msgid "Hashtags"
+msgstr "Hashtags"
+
+#: build/index.js:493
+msgid "Add in your hastags, just as you would on any tweet."
+msgstr "Ajoutez vos hashtags, comme vous le feriez pour n'importe quel tweet."
+
+#: build/index.js:501
+msgid "Call to Action display"
+msgstr "Affichage de l'appel à l'action"
+
+#: build/index.js:502
+msgid "Display link as a button"
+msgstr "Afficher comme un bouton"
+
+#: build/index.js:510
+msgid "Call to Action content"
+msgstr "Contenu de l'appel à l'action"
+
+#: build/index.js:513
+msgid "Icon and text"
+msgstr "Icône et texte"
+
+#: build/index.js:516
+msgid "Icon only (text will still be visible to screen readers)"
+msgstr ""
+"Icône uniquement (le texte sera toujours visible pour les lecteurs d'écran)"
+
+#: build/index.js:519
+msgid "Text only"
+msgstr "Texte seulement"

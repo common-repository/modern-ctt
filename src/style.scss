@@ -1,0 +1,135 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+@import 'variables';
+
+.wp-block-modernplugins-modern-ctt  {
+	border-radius: 4px;
+	margin-bottom: 1.5rem;	
+	padding: 1.5rem;
+	a {
+		background: transparent !important;
+		color: inherit;
+		display: block;
+		text-decoration: none;
+	}
+	svg {
+		fill: currentColor;
+	}
+	p {
+		margin-bottom: 1.5rem;
+	}
+	.icon-twitter {
+		height: 1.5rem;
+		margin-left: .25rem;
+		width: 1.5rem;
+	}
+	.icon-quote {
+		height: 1.5rem;
+		width: 1.5rem;
+	}
+	.modern-ctt-quotemark {
+		opacity: .3;
+	}
+	.modern-ctt-footer {
+		align-items: center;
+		display: flex;
+		justify-content: flex-end;
+		transition: color .25s ease-in-out;
+	}
+	.modern-ctt-cta {
+		align-items: center;
+		display: flex;
+	}
+	.modern-ctt-prompt.screen-reader-text + .icon {
+		margin-left: 0;
+	}
+	.modern-ctt-button {
+		border: 1px solid;
+		border-radius: 4px;
+		line-height: 1;
+		padding: 8px 12px;
+		transition: background-color .25s ease-in-out;
+	}
+	.modern-ctt-character-counter {
+		font-size: .75rem;
+		opacity: .8;
+		text-align: right;
+		&.exceeded {
+			color: red;
+		}
+	}
+	.screen-reader-text {
+		border: 0;
+		clip: rect(1px, 1px, 1px, 1px);
+		-webkit-clip-path: inset(50%);
+		clip-path: inset(50%);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute !important;
+		width: 1px;
+		word-wrap: normal !important;
+		word-break: normal;
+	}
+	.hidden {
+		display: none;
+	}
+	.dimmed {
+		opacity: .5;
+	}
+	&.is-style-default {
+		border: 1px solid $grey-2;
+		box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
+		.modern-ctt-footer {
+			color: $twitter-3;
+		}
+		.modern-ctt-button {
+			background-color: $twitter-3;
+			border-color: $twitter-4;
+			color: white;
+		}
+		&:hover,
+		&:focus-within {
+			.modern-ctt-footer {
+				color: $twitter-4;
+			}
+			.modern-ctt-button {
+				background-color: $twitter-4;
+			}
+		}
+	}
+	&.is-style-twitter {
+		background: $twitter-3;
+		color: white;
+		&:hover,
+		&:focus-within {
+			.modern-ctt-button {
+				background-color: $twitter-4;
+			}
+		}
+	}
+	&.is-style-minimal {
+		border: 1px solid $grey-2;
+		box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
+	}
+	&.is-style-border {
+		border-left: 8px solid;
+	}
+	&.is-style-plain,
+	&.is-style-minimal,
+	&.is-style-quote,
+	&.is-style-border {
+		&:hover,
+		&:focus-within {
+			.modern-ctt-footer {
+				color: $twitter-4;
+			}
+		}
+	}
+}

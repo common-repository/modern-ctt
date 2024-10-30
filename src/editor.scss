@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+@import 'variables';
+
+.wp-block-modernplugins-modern-ctt {
+    p {
+		margin-bottom: 1.5rem;
+	}
+}
+.styledLabel {
+	display: inline-block;
+	margin-bottom: 8px;
+}
